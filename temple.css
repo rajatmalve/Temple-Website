@@ -539,6 +539,13 @@
 .gallery_main {
 
     margin-left: 1.6%;
+
+}
+
+.temple4{
+
+   padding-left: 0px;
+    width: 445px;
 }
 
 
@@ -546,7 +553,7 @@
 @media (min-width:1025px) and (max-width:1441px) {
     
     html {
-        width: 1486px;
+        width: 1504px;
     }
 
     .main_div{
@@ -567,17 +574,16 @@
 
         margin: 27px 0px;
     }
+
+    .temple4{
+
+   padding-left: 0px;
+    width: 445px;
+}
 }
 
 @media (min-widht:769px) and (max-width:1025px) {
 
-     /* html {
-        width: 700%;
-    }
-    .navbar {
-
-        width: 1488px;
-    } */
 
      html {
         width: 148%;
@@ -622,20 +628,30 @@
         height: 514px;
     }
 
+    .temple4{
+
+        padding-left: 24px;
+        width: 469px;
+    }
+    .temple5{
+
+        margin-left: 22px;
+    }
+
     .visit-time {
 
-        font-size: 35px;
-    }
+        font-size: 20px;
+    } */
 
     .visittemple {
 
         font-size: 45px;
-    }
+    } 
 
-    .visit-address {
+     .visit-address {
 
-        font-size: 37px;
-    }
+        font-size: 20px;
+    } 
 
     .location-btn {
 
@@ -702,22 +718,19 @@
     .nav-links{
 
         font-size: 28px;
-    }
-
-    .temple3{
-
-        width: 572px;
-    }
-
-    .temple7{
-
-        width: 512px;
+        gap: 100px;
     }
 
     .main_div{
 
         margin-left: 89px;
     }
+
+    .temple4{
+
+   padding-left: 0px;
+    width: 0px;
+}
 
 }
 
@@ -739,6 +752,17 @@
 
         margin-left: -8px;
     }
+
+    .temple4{
+
+   padding-left: 0px;
+    width: 445px;
+}
+
+.or{
+
+    margin-top: 24px;
+}
 }
 
 @media (min-width:376px) and (max-width:426px) {
@@ -867,20 +891,23 @@
         font-size: 28px;
     }
 
-    .temple3{
-
-        width: 572px;
-    }
-
-    .temple7{
-
-        width: 512px;
-    }
-
     .main_div{
 
         margin-left: 89px;
     }
+
+    .temple4{
+
+   padding-left: 27px;
+    width: 472px;
+}
+
+.or{
+
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 30px;
+}
 }
 
 @media (min-width:321px) and (max-width:376px) {
@@ -928,6 +955,7 @@
     }
 
     .visit-time {
+
 
         font-size: 35px;
     }
@@ -1008,25 +1036,184 @@
         font-size: 28px;
     }
 
-    .temple3{
+    .main_div{
 
-        width: 572px;
+        margin-left: -8px;
     }
 
-    .temple7{
+    .temple4{
 
-        width: 512px;
+   padding-left: 24px;
+    width: 469px;
+}
+
+.or{
+
+    margin-top: 24px;
+    font-size: 30px;
+    font-weight: 700;
+}
+}
+
+@media screen and (max-width:321px) {
+
+    html {
+        width: 440%;
+    }
+
+    .temple4{
+
+   padding-left: 0px;
+    width: 320px;
+}
+
+ .visit-section {
+
+        gap: 21%;
+    }
+
+    .welcome-section {
+        gap: 50px;
+
+    }
+
+    .welcome {
+
+        margin-left: 28%;
+        font-size: 45px;
+
+    }
+
+    .carousel-container {
+
+        margin-top: 363px;
+    }
+
+    .members-container {
+
+        gap: 130px;
+    }
+
+    .welcomep {
+
+        margin-left: 1%;
+        font-size: 31px;
+    }
+
+    .section2 {
+
+        width: 677px;
+        height: 514px;
+    }
+
+    .visit-time {
+
+
+        font-size: 35px;
+    }
+
+    .visittemple {
+
+        font-size: 45px;
+    }
+
+    .visit-address {
+
+        font-size: 37px;
+    }
+
+    .location-btn {
+
+        border: 28px solid #a32b00;
+        font-size: 36px;
+    }
+
+    .temple {
+
+        font-size: 60px;
+    }
+
+    .gallery-text {
+
+        font-size: 37px;
+    }
+
+    .members-section h2{
+
+        font-size: 52px;
+    }
+    .see-all-btn{
+
+        font-size: 46px;
+    }
+
+    .member-card p {
+
+        font-size: 28px;
+    }
+
+    .member-card h3{
+
+        font-size: 24px;
+    }
+
+    .join-text{
+
+        font-size: 22px;
+    }
+    
+    .subscribe{
+
+        font-size: 22px;
+    }
+
+    .logo-section img{
+
+        width: 91px;
+        height: 92px;
+    }
+
+    .navbar{
+
+        padding: 68px 20px;
+    }
+
+    .logo-section h1{
+
+        font-size: 26px;
+    }
+
+    .nav-links{
+
+        font-size: 28px;
     }
 
     .main_div{
 
         margin-left: -8px;
     }
+
+    .temple4{
+
+   padding-left: 24px;
+    width: 469px;
 }
 
-@media screen and (max-width:321px) {
+.scroll-content img {
 
-    html {
-        width: 416%;
-    }
+    width: 0px;
+    height: 118px;
 }
+
+.contact{
+
+    width: 99px;
+    height: 29px;
+}
+
+.imag06{
+
+    width: 253px;
+}
+}
+
