@@ -361,6 +361,7 @@
 .email-input {
     width: 586px;
     height: 56px;
+    border-radius: 13px;
 }
 
 .subscribe {
@@ -454,11 +455,11 @@
 }
 
 .company-name{
-     
-    font-size: px;
+
     text-align: center;
     font-size: 31px;
     margin-top: 100px;
+    font-weight: 600;
 }
 
 .carousel-container {
@@ -476,7 +477,7 @@
 
 .carousel-track {
     display: flex;
-    animation: scroll-left 7s linear infinite;
+    animation: scroll-left 10s linear infinite;
 }
 
 .carousel-track img {
@@ -504,7 +505,7 @@
 
 .scroll-content {
     display: flex;
-    animation: scrollRight 5s linear infinite;
+    animation: scrollRight 10s linear infinite;
 }
 
 .scroll-content img {
@@ -540,12 +541,184 @@
     margin-left: 1.6%;
 }
 
+
+
+@media (min-width:1025px) and (max-width:1441px) {
+    
+    html {
+        width: 1486px;
+    }
+
+    .main_div{
+
+        margin-left: -16px;
+    }
+
+    .welcome {
+    margin-left: 37%;
+    }
+
+    .visit-section {
+
+        gap: 306px;
+    }
+
+    .carousel-container {
+
+        margin: 27px 0px;
+    }
+}
+
 @media (min-widht:769px) and (max-width:1025px) {
 
+     /* html {
+        width: 700%;
+    }
     .navbar {
 
         width: 1488px;
+    } */
+
+     html {
+        width: 148%;
     }
+
+    .visit-section {
+
+        gap: 20%;
+    }
+
+    .welcome-section {
+        gap: 50px;
+
+    }
+
+    .welcome {
+
+        margin-left: 28%;
+        font-size: 45px;
+
+    }
+
+    .carousel-container {
+
+        margin-top: 363px;
+    }
+
+    .members-container {
+
+        gap: 130px;
+    }
+
+    .welcomep {
+
+        margin-left: 1%;
+        font-size: 31px;
+    }
+
+    .section2 {
+
+        width: 677px;
+        height: 514px;
+    }
+
+    .visit-time {
+
+        font-size: 35px;
+    }
+
+    .visittemple {
+
+        font-size: 45px;
+    }
+
+    .visit-address {
+
+        font-size: 37px;
+    }
+
+    .location-btn {
+
+        border: 28px solid #a32b00;
+        font-size: 36px;
+    }
+
+    .temple {
+
+        font-size: 60px;
+    }
+
+    .gallery-text {
+
+        font-size: 37px;
+    }
+
+    .members-section h2{
+
+        font-size: 52px;
+    }
+    .see-all-btn{
+
+        font-size: 46px;
+    }
+
+    .member-card p {
+
+        font-size: 28px;
+    }
+
+    .member-card h3{
+
+        font-size: 24px;
+    }
+
+    .join-text{
+
+        font-size: 22px;
+    }
+    
+    .subscribe{
+
+        font-size: 22px;
+    }
+
+    .logo-section img{
+
+        width: 91px;
+        height: 92px;
+    }
+
+    .navbar{
+
+        padding: 68px 20px;
+        width: 1702px;
+    }
+
+    .logo-section h1{
+
+        font-size: 26px;
+    }
+
+    .nav-links{
+
+        font-size: 28px;
+    }
+
+    .temple3{
+
+        width: 572px;
+    }
+
+    .temple7{
+
+        width: 512px;
+    }
+
+    .main_div{
+
+        margin-left: 89px;
+    }
+
 }
 
 @media (min-width:426px) and (max-width:769px) {
@@ -561,11 +734,152 @@
 
         gap: 22%;
     }
+
+    .main_div{
+
+        margin-left: -8px;
+    }
 }
 
 @media (min-width:376px) and (max-width:426px) {
     html {
-        width: 352%;
+        width: 1702px;
+    }
+
+    .visit-section {
+
+        gap: 20%;
+    }
+
+    .welcome-section {
+        gap: 50px;
+
+    }
+
+    .welcome {
+
+        margin-left: 28%;
+        font-size: 45px;
+
+    }
+
+    .carousel-container {
+
+        margin-top: 363px;
+    }
+
+    .members-container {
+
+        gap: 130px;
+    }
+
+    .welcomep {
+
+        margin-left: 1%;
+        font-size: 31px;
+    }
+
+    .section2 {
+
+        width: 677px;
+        height: 514px;
+    }
+
+    .visit-time {
+
+        font-size: 35px;
+    }
+
+    .visittemple {
+
+        font-size: 45px;
+    }
+
+    .visit-address {
+
+        font-size: 37px;
+    }
+
+    .location-btn {
+
+        border: 28px solid #a32b00;
+        font-size: 36px;
+    }
+
+    .temple {
+
+        font-size: 60px;
+    }
+
+    .gallery-text {
+
+        font-size: 37px;
+    }
+
+    .members-section h2{
+
+        font-size: 52px;
+    }
+    .see-all-btn{
+
+        font-size: 46px;
+    }
+
+    .member-card p {
+
+        font-size: 28px;
+    }
+
+    .member-card h3{
+
+        font-size: 24px;
+    }
+
+    .join-text{
+
+        font-size: 22px;
+    }
+    
+    .subscribe{
+
+        font-size: 22px;
+    }
+
+    .logo-section img{
+
+        width: 91px;
+        height: 92px;
+    }
+
+    .navbar{
+
+        padding: 68px 20px;
+        width: 1702px;
+    }
+
+    .logo-section h1{
+
+        font-size: 26px;
+    }
+
+    .nav-links{
+
+        font-size: 28px;
+    }
+
+    .temple3{
+
+        width: 572px;
+    }
+
+    .temple7{
+
+        width: 512px;
+    }
+
+    .main_div{
+
+        margin-left: 89px;
     }
 }
 
@@ -692,6 +1006,21 @@
     .nav-links{
 
         font-size: 28px;
+    }
+
+    .temple3{
+
+        width: 572px;
+    }
+
+    .temple7{
+
+        width: 512px;
+    }
+
+    .main_div{
+
+        margin-left: -8px;
     }
 }
 
